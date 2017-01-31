@@ -1,3 +1,5 @@
-console.log("This module works!");
+var testModule = function() {
+    console.log("This module works!");
+}
 
-module.exports = test-module;
+module.exports = testModule;
