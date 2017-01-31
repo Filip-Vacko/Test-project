@@ -9,9 +9,6 @@ In this project, I apply the programming knowledge I learn.
 2. Module(s) (file "testModule.js" and possibly other locations)
 
 
-//Planned features
-- modules
-
 #Installation
 ------------
 1. Install Node.js 
