@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Filip-Vacko/Test-project/issues"
   },
-  "homepage": "https://github.com/Filip-Vacko/Test-project#readme"
+  "homepage": "https://github.com/Filip-Vacko/Test-project#readme",
+  "dependencies": {
+    "scrapman": "^2.3.1"
+  }
 }
