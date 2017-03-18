@@ -1,11 +1,13 @@
 var http = require("http");
 var testModule = require("./testModule");
+var express = require('express');
+var app = express();
 
 testModule();
 
-http.createServer(function(req, res){
-    res.writeHead(200, { "Content-type": "text/html" })
-    var html = fs.readFileSync(__dirname + "/index.html");
-    res.end(html);
-}).listen(1338, "127.0.0.1")
+app.listen(3000);
 
+app.get("/", function (req, res) {
+    res.send("Hello World");
+
+})

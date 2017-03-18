@@ -1,19 +1,20 @@
 # Test-project
 ========
 
-In this project, I apply the programming knowledge I learn. 
+In this project, I'm applying the programming knowledge I learn. 
 
 #Features
 --------
-1. A simple webserver (http.createServer in "app.js")
+1. A simple Express server (in "app.js")
 2. Module(s) (file "testModule.js" and possibly other locations)
 
 
 #Installation
 ------------
 1. Install Node.js 
-2. In the command line, in the folder containing the project files, run "node app.js"
-3. Go to "http://localhost:1338/" in your browser
+2. In the command line, in the folder containing the project files, run "npm install"
+3. In the command line, in the folder containing the project files, run "node app.js"
+4. Go to "http://localhost:3000" in your browser
 
 #Things I'm going to apply/test here:
 ------------
