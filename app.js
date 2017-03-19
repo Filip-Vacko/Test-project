@@ -1,10 +1,9 @@
-var testModule = require("./testModule");
-var express = require('express');
-var app = express();
-var bodyParser = require('body-parser');
-var jsonParser = bodyParser.json()
-var receivedData = "";
-
+"use strict";
+const testModule = require("./testModule");
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const jsonParser = bodyParser.json();
 
 testModule();
 
@@ -16,8 +15,17 @@ app.get("/", function (req, res) {
 });
 
 app.post("/", jsonParser, function (req, res) {
-    receivedData = req.body.id;
-    res.send("Hello World");
-    console.log(receivedData);
-
+    let promise = new Promise(function(resolve, reject) {
+        resolve(req.body.id);
+        reject("There was an Error");
+    });
+    promise
+        .then(function(value) {
+            res.send("The following value was inserted correctly: " + value);
+            console.log("This works!")
+        })
+        .catch(function(reason) {
+            res.send("Sorry, operation could not be completed because of " + reason);
+            console.log("There was an error")
+        })
 });

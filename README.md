@@ -10,6 +10,7 @@ for more info on how to test these features, please see file "Testing.MD", which
 1. A simple Express server (in "app.js")
 2. Module(s) (file "testModule.js" and possibly other locations)
 3. A simple Express post request
+4. A simple promise
 
 #Installation
 ------------
