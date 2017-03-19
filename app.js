@@ -4,6 +4,19 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
+const Ajv = require('ajv');
+const validator = new Ajv({coerceTypes: true, useDefaults: true});
+
+const idObject = {
+    type: "object",
+    properties: {
+        name: {type: "string", minLength: 2, maxLength: 50},
+        email: {type: "string", format: "email"},
+        id: {type: "string", minLength: 1}
+    },
+    required: ["id"],
+    additionalProperties: true
+};
 
 testModule();
 
@@ -21,6 +34,9 @@ app.post("/", jsonParser, function (req, res) {
     });
     promise
         .then(function(value) {
+            let valid = validator.validate(idObject, req.body);
+            if (!valid)
+                this.throw(400, JSON.stringify(ajv.errors));
             res.send("The following value was inserted correctly: " + value);
             console.log("This works!")
         })

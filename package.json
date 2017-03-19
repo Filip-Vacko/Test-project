@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/Filip-Vacko/Test-project#readme",
   "dependencies": {
+    "ajv": "^4.11.5",
     "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "scrapman": "^2.3.1"
+    "express": "^4.15.2"
   }
 }
