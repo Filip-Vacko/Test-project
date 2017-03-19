@@ -28,7 +28,6 @@ for more info on how to test these features, please see file "Testing.MD", which
 - JSON
 - events/event listener
 - classes
-- express/request/response
 - express middleware
 - at least 2 APIs
 - files (npm fs)
