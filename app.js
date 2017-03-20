@@ -22,8 +22,10 @@ testModule();
 
 app.listen(3000);
 
+app.set('view engine', 'ejs');
+
 app.get("/", function (req, res) {
-    res.send("Hello World");
+    res.render('index'); //this checks in a "views" folder for a file with a name of "index" with extension set in the second parameter of "app.set" (".ejs" in this case)
 
 });
 

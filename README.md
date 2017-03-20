@@ -11,7 +11,8 @@ for more info on how to test these features, please see file "Testing.MD", which
 2. Module(s) (file "testModule.js" and possibly other locations)
 3. A simple Express post request
 4. A simple promise
-4. A json validator Ajv
+5. A json validator Ajv
+6. A template engine EJS
 
 #Installation
 ------------
