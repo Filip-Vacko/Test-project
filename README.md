@@ -21,7 +21,7 @@ for more info on how to test these features, please see file "Testing.MD", which
 3. In the command line, in the folder containing the project files, run "node app.js"
 4. Go to "http://localhost:3000" in your browser
 
-#Things I'm going to apply/test here:
+#Things I'm probably going to apply/test here:
 ------------
 - create a html file so that everything in here can be tested more easily in a browser
 - create an object literal with a method and call that method afterwards 
@@ -34,7 +34,6 @@ for more info on how to test these features, please see file "Testing.MD", which
 - at least 2 APIs
 - files (npm fs)
 - try every HTTP verb (GET, POST, DELETE,...)
-- try a template engine
 - try REST API 
 - database(s)
 **+ some other stuff I will add here later**
@@ -48,3 +47,36 @@ for more info on how to test these features, please see file "Testing.MD", which
 **The Web Developer Bootcamp** https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview
 
 **The Complete Web Developer Course 2.0** https://www.udemy.com/the-complete-web-developer-course-2/learn/v4/overview
+
+Also npm modules: 
+ 
+     Bluebird
+     Bunyan
+     Bunyan-format
+     Compression
+     Cookie-parser
+     Glob
+     Lodash
+     Marko
+     Method-override
+     Moment
+     Morgan
+     Mysql
+     Oauth2-server
+     Redis
+     Sequelize
+     Serve-favicon
+     Sinon
+     Verror
+     (dev)
+     Chai
+     Chai-http
+     Debug
+     Gulp
+     Gulp-less
+     Gulp-lifereload
+     Gulp-nodemon
+     Gulp-plumber
+     Mocha
+     Nyc
+     supertest
