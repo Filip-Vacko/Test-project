@@ -21,7 +21,7 @@ for more info on how to test these features, please see file "Testing.MD", which
 3. In the command line, in the folder containing the project files, run "node app.js"
 4. Go to "http://localhost:3000" in your browser
 
-#Things I'm probably going to apply/test here:
+#Things I may apply/test here:
 ------------
 - create a html file so that everything in here can be tested more easily in a browser
 - create an object literal with a method and call that method afterwards 
@@ -36,6 +36,9 @@ for more info on how to test these features, please see file "Testing.MD", which
 - try every HTTP verb (GET, POST, DELETE,...)
 - try REST API 
 - database(s)
+-foreach array
+- try/catch
+
 **+ some other stuff I will add here later**
 
 + some other stuff from the Udemy courses I haven't learned yet:
@@ -47,6 +50,8 @@ for more info on how to test these features, please see file "Testing.MD", which
 **The Web Developer Bootcamp** https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview
 
 **The Complete Web Developer Course 2.0** https://www.udemy.com/the-complete-web-developer-course-2/learn/v4/overview
+
+Stuff from the Eloquent Javascript book
 
 Also npm modules: 
  
