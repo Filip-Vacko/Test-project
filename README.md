@@ -71,6 +71,7 @@ ES6 stuff:
 Stuff from the Eloquent Javascript book
 
 #Other things I may apply/test here:
+------------
 
 Advanced stuff from Udemy courses I bought: 
 https://www.udemy.com/understand-nodejs/learn/v4/content
