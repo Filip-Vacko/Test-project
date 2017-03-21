@@ -24,21 +24,18 @@ for more info on how to test these features, please see file "Testing.MD", which
 
 #Things I may apply/test here:
 ------------
-- create a html file so that everything in here can be tested more easily in a browser
+- foreach array
 - create an object literal with a method and call that method afterwards 
+- classes
 - object prototypes
 - scopes
-- JSON
 - events/event listener
-- classes
 - express middleware
-- at least 2 APIs
-- files (npm fs)
 - try every HTTP verb (GET, POST, DELETE,...)
-- try REST API 
-- database(s)
--foreach array
+
 - try/catch
+
+- database(s)
 
 **+ some other stuff I will add here later**
 
@@ -63,7 +60,6 @@ Also npm modules:
      Cookie-parser
      Glob
      Lodash
-     Marko
      Method-override
      Moment
      Morgan
