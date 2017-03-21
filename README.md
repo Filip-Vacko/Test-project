@@ -13,6 +13,7 @@ for more info on how to test these features, please see file "Testing.MD", which
 4. A simple promise
 5. A json validator Ajv
 6. A template engine EJS
+7. A template engine Marko
 
 #Installation
 ------------
