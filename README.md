@@ -15,6 +15,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 6. A template engine EJS
 7. A template engine Marko
 8. A forEach() array method
+9. NPM module Moment for displaying/formating dates
 
 #Installation
 ------------
@@ -25,7 +26,6 @@ for more info on how to test these features, please see the file "Testing.MD", w
 
 #Things I will probably apply/test here:
 ------------
-- Moment
 - Bunyan
 - Bunyan-format
 - Cookie-parser
@@ -79,7 +79,6 @@ https://www.udemy.com/es6-bootcamp-next-generation-javascript/learn/v4/overview
 https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview
 https://www.udemy.com/the-complete-web-developer-course-2/learn/v4/overview
 
-+
 - database(s)
 - Sequelize
 - Redis

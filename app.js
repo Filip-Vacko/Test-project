@@ -8,6 +8,7 @@ const Ajv = require('ajv');
 const validator = new Ajv({coerceTypes: true, useDefaults: true});
 const marko = require('marko/node-require');
 const markoTemplate = require('./views/hello');
+const moment = require('moment');
 
 const idObject = {
     type: "object",
@@ -41,6 +42,10 @@ app.get("/marko", function (req, res) {
 
     // render the output to the `res` output stream
     markoTemplate.render({ name:'Marko' }, res);
+});
+
+app.get("/today", function (req, res) {
+    res.send('So glad you came here on ' + moment().format('dddd')); //the moment function returns current day in the format specified in the .format()
 });
 
 app.post("/", jsonParser, function (req, res) {
