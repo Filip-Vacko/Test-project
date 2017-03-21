@@ -8,6 +8,7 @@ const Ajv = require('ajv');
 const validator = new Ajv({coerceTypes: true, useDefaults: true});
 const marko = require('marko/node-require');
 const markoTemplate = require('./views/hello');
+const testArray = ["testing, ", "for, ", "each, ", "array, ", "successful."];
 
 const idObject = {
     type: "object",
@@ -27,6 +28,9 @@ app.listen(3000);
 app.set('view engine', 'ejs');
 
 app.get("/", function (req, res) {
+    testArray.forEach(function(parameter) {
+        console.log(parameter);
+    });
     res.render('index'); //this checks in a "views" folder for a file with a name of "index" with extension set in the second parameter of "app.set" (".ejs" in this case)
 
 });
@@ -57,3 +61,4 @@ app.post("/", jsonParser, function (req, res) {
             console.log("There was an error")
         })
 });
+

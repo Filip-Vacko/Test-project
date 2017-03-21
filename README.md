@@ -14,7 +14,7 @@ for more info on how to test these features, please see file "Testing.MD", which
 5. A json validator Ajv
 6. A template engine EJS
 7. A template engine Marko
-
+8. A forEach() array method
 #Installation
 ------------
 1. Install Node.js 
@@ -24,7 +24,6 @@ for more info on how to test these features, please see file "Testing.MD", which
 
 #Things I may apply/test here:
 ------------
-- foreach array
 - create an object literal with a method and call that method afterwards 
 - classes
 - object prototypes
