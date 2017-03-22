@@ -26,3 +26,6 @@ As for the hello.marko.js in the views folder - this file is automatically gener
 10. **bunyan logger** - You can see this working  with a get request on "/logger" (e.g. http://localhost:3000/logger). You should see a hello world message there and also, you should see some logs in your console. 
 
 11. **bunyan-format** - See the previous item. This module makes the logs nicely formatted/colored. 
+
+12. **Simple Express middleware** - you can see this in app.js as an "app.use" right above the app.get request on "/today". 
+You can see this working  with a get request on "/today" (e.g. http://localhost:3000/today). You should see a message logged in the console. 

@@ -18,6 +18,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 9. NPM module Moment for displaying/formating dates
 10. bunyan logger
 11. bunyan-format
+12. Simple Express middleware 
 
 #Installation
 ------------
@@ -51,7 +52,6 @@ for more info on how to test these features, please see the file "Testing.MD", w
 - classes
 - object prototypes
 - scopes
-- express middleware
 - try every HTTP verb (GET, POST, DELETE,...)
 - try/catch
 

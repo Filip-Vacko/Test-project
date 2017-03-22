@@ -48,6 +48,11 @@ app.get("/marko", function (req, res) {
     markoTemplate.render({ name:'Marko' }, res);
 });
 
+app.use('/today', function (req, res, next) {
+    console.log("Hello console, this is middleware!");
+    next();
+});
+
 app.get("/today", function (req, res) {
     res.send('So glad you came here on ' + moment().format('dddd')); //the moment function returns current day in the format specified in the .format()
 });
