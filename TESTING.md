@@ -22,3 +22,5 @@ As for the hello.marko.js in the views folder - this file is automatically gener
 8. **A forEach() array method** - You can see this working automatically with a get request on "/" (e.g. http://localhost:3000/). You should see the items of the array output in the console. 
 
 9. **NPM module Moment for displaying/formating dates** - You can see this working  with a get request on "/today" (e.g. http://localhost:3000/today). You should see the name of current day displayed in your browser. 
+
+10. **bunyan logger** - You can see this working  with a get request on "/logger" (e.g. http://localhost:3000/logger). You should see a hello world message there and also, you should see some logs in your console. 

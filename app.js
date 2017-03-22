@@ -9,6 +9,8 @@ const validator = new Ajv({coerceTypes: true, useDefaults: true});
 const marko = require('marko/node-require');
 const markoTemplate = require('./views/hello');
 const moment = require('moment');
+const bunyan = require('bunyan');
+const log = bunyan.createLogger({name: 'mySampleLogger'});
 
 const idObject = {
     type: "object",
@@ -66,3 +68,12 @@ app.post("/", jsonParser, function (req, res) {
             console.log("There was an error")
         })
 });
+
+app.get("/logger", function (req, res) {
+    res.send("Hello logger world!");
+    log.info('hi');
+    log.warn({lang: 'fr'}, 'au revoir');
+    log.info("1st test");
+    log.info("2nd test");
+});
+
