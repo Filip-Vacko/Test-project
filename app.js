@@ -10,7 +10,9 @@ const marko = require('marko/node-require');
 const markoTemplate = require('./views/hello');
 const moment = require('moment');
 const bunyan = require('bunyan');
-const log = bunyan.createLogger({name: 'mySampleLogger'});
+const bformat = require('bunyan-format');
+const formatOut = bformat({ outputMode: 'short' });
+const log = bunyan.createLogger({ name: 'app', stream: formatOut, level: 'debug' } );
 
 const idObject = {
     type: "object",

@@ -17,6 +17,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 8. A forEach() array method
 9. NPM module Moment for displaying/formating dates
 10. bunyan logger
+11. bunyan-format
 
 #Installation
 ------------
@@ -27,7 +28,6 @@ for more info on how to test these features, please see the file "Testing.MD", w
 
 #Things I will probably apply/test here:
 ------------
-- Bunyan-format
 - Cookie-parser
 - Oauth2-server
 - Morgan
