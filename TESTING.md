@@ -25,4 +25,4 @@ As for the hello.marko.js in the views folder - this file is automatically gener
 
 10. **bunyan logger** - You can see this working  with a get request on "/logger" (e.g. http://localhost:3000/logger). You should see a hello world message there and also, you should see some logs in your console. 
 
-11. **bunyan-format** - See the previous item. This module makes the logs nicely formated/colored. 
+11. **bunyan-format** - See the previous item. This module makes the logs nicely formatted/colored. 
