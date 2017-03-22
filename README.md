@@ -44,6 +44,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 - Mocha
 - Nyc
 - supertest
+- i18n
 
 - nodejs "path"
 - create an object literal with a method and call that method afterwards 
