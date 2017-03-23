@@ -24,7 +24,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 #Installation
 ------------
 1. Install Node.js 
-2. In the commbnd line, in the folder containing the project files, run "npm install"
+2. In the command line, in the folder containing the project files, run "npm install"
 3. In the command line, in the folder containing the project files, run "node app.js"
 4. Go to "http://localhost:3000" in your browser
 
