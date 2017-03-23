@@ -29,7 +29,6 @@ for more info on how to test these features, please see the file "Testing.MD", w
 
 #Things I will probably apply/test here:
 ------------
-- Cookie-parser
 - Oauth2-server
 - Morgan
 - Sinon
