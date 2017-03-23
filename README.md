@@ -19,7 +19,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 10. bunyan logger
 11. bunyan-format
 12. Simple Express middleware 
-
+11. ES6 Classes with inheritance, private property, setter etc. 
 #Installation
 ------------
 1. Install Node.js 
@@ -29,7 +29,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 
 #Things I will probably apply/test here:
 ------------
-- Oauth2-server
+- Oauth2-server 
 - Morgan
 - Sinon
 - Verror
@@ -48,7 +48,6 @@ for more info on how to test these features, please see the file "Testing.MD", w
 
 - nodejs "path"
 - create an object literal with a method and call that method afterwards 
-- classes
 - object prototypes
 - scopes
 - try every HTTP verb (GET, POST, DELETE,...)
@@ -66,7 +65,6 @@ ES6 stuff:
 - Functions and Default Parameters
 - Object Literal Extensions
 - The for-of Loop
-- Classes, inheritance, etc. (29-39)
 
 Stuff from the Eloquent Javascript book
 

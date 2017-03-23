@@ -29,3 +29,5 @@ As for the hello.marko.js in the views folder - this file is automatically gener
 
 12. **Simple Express middleware** - you can see this in app.js as an "app.use" right above the app.get request on "/today". 
 You can see this working  with a get request on "/today" (e.g. http://localhost:3000/today). You should see a message logged in the console. 
+
+11. **ES6 Classes with inheritance, private property, setter etc.** - You have to test this separately, so in a sense, this is not a part of the core project. Just run "node sample-classes.js" instead of "node app.js" and you should see the output in the console. For more explanation on this results please see //comments in sample.classes.js . 
