@@ -20,6 +20,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 11. bunyan-format
 12. Simple Express middleware 
 11. ES6 Classes with inheritance, private property, setter etc. 
+
 #Installation
 ------------
 1. Install Node.js 
