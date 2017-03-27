@@ -30,6 +30,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 
 #Things I will probably apply/test here:
 ------------
+- more about node.js/ES6 modules, including edge cases
 - Oauth2-server 
 - Morgan
 - Sinon
