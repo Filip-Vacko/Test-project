@@ -29,7 +29,8 @@ class setterAndPrivatePropertyClass {
     }
 
     set surname(value) {
-        if (value.length > 3) {   //this means the the value from the parameter is passed to ._surname (= surname) only if it is longer than 3 charecters.
+        if (value.length > 3) {   //this means the the value from the parameter is passed to ._surname (= surname)
+            // only if it is longer than 3 charecters.
             this._surname = value;
         } else {
             console.log("Too short!")
@@ -46,7 +47,9 @@ anotherTest.supergreet("beautiful");
 
 let lastClass = new setterAndPrivatePropertyClass("Smith");
 console.log(lastClass._surname);
-lastClass.surname = "Wo"; //since "wo" is too short, it does not override the default surname and so instead of setting anything, it only writes to the console "Too short!"
-console.log(lastClass._surname); //since the value of surname has not changed since the last console.log, it will again print "Smith"
+lastClass.surname = "Wo"; //since "wo" is too short, it does not override the default surname and so instead of setting
+// anything, it only writes to the console "Too short!"
+console.log(lastClass._surname); //since the value of surname has not changed since the last console.log, it will again
+// print "Smith"
 lastClass.surname = "Wong";
 console.log(lastClass._surname); //prints out "Wong"

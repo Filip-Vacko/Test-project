@@ -36,7 +36,8 @@ app.get("/", function (req, res) {
     testArray.forEach(function(parameter) {
         console.log(parameter);
     });
-    res.render('index'); //this checks in a "views" folder for a file with a name of "index" with extension set in the second parameter of "app.set" (".ejs" in this case)
+    res.render('index'); //this checks in a "views" folder for a file with a name of "index" with extension set in
+    // the second parameter of "app.set" (".ejs" in this case)
 
 });
 
@@ -54,7 +55,8 @@ app.use('/today', function (req, res, next) {
 });
 
 app.get("/today", function (req, res) {
-    res.send('So glad you came here on ' + moment().format('dddd')); //the moment function returns current day in the format specified in the .format()
+    res.send('So glad you came here on ' + moment().format('dddd')); //the moment function returns current day in the
+    // format specified in the .format()
 });
 
 app.post("/", jsonParser, function (req, res) {
