@@ -29,3 +29,22 @@ describe('A post request test', function() {
 
 });
 
+describe('A get request test', function() {
+    it("should pass when the get request is successful", function (done) {
+        chai.request('http://localhost:3000')
+            .get('/')
+            .end((err, res) => {
+                if (err) {
+                    expect.fail(err);
+                    done();
+                } else {
+                    expect(res.statusCode).equals(200);
+                    expect(res.body).to.be.an('Object');
+                    done();
+                }
+            });
+    });
+});
+
+
+
