@@ -3,3 +3,4 @@
 /.idea
 /!private
 Test-project.iml
+views/hello.marko.js
