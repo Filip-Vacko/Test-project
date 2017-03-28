@@ -21,6 +21,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 12. Simple Express middleware 
 11. ES6 Classes with inheritance, private property, setter etc. 
 12. A simple Mocha + Chai + ChaiHTTP test
+13. ES6 Fat arrow functions
 
 #Installation
 ------------
@@ -60,7 +61,6 @@ NodeJS stuff:
 - init, nodemon, and package.json pt1+pt2
 
 ES6 stuff: 
-- (Fat) Arrow Functions
 - (Fat) Arrow Functions and the "this" Keyword
 - Functions and Default Parameters
 - Object Literal Extensions
