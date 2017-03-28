@@ -20,6 +20,7 @@ for more info on how to test these features, please see the file "Testing.MD", w
 11. bunyan-format
 12. Simple Express middleware 
 11. ES6 Classes with inheritance, private property, setter etc. 
+12. A simple Mocha + Chai + ChaiHTTP test
 
 #Installation
 ------------
@@ -35,15 +36,12 @@ for more info on how to test these features, please see the file "Testing.MD", w
 - Morgan
 - Sinon
 - Verror
-- Chai
-- Chai-http
 - Debug
 - Gulp
 - Gulp-less
 - Gulp-lifereload
 - Gulp-nodemon
 - Gulp-plumber
-- Mocha
 - Nyc
 - supertest
 - i18n

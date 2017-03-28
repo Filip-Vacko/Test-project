@@ -4,7 +4,7 @@
   "description": "In this project, I apply the programming knowledge I learn. ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,11 @@
     "body-parser": "^1.17.1",
     "bunyan": "^1.8.9",
     "bunyan-format": "^0.2.1",
+    "chai": "^3.5.0",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
     "marko": "^4.1.2",
+    "mocha": "^3.2.0",
     "moment": "^2.18.0"
   }
 }

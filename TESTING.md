@@ -31,3 +31,5 @@ After running a relevant request, a hello.marko.js file is generated in the view
 You can see this working  with a get request on "/today" (e.g. http://localhost:3000/today). You should see a message logged in the console. 
 
 11. **ES6 Classes with inheritance, private property, setter etc.** - You have to test this separately, so in a sense, this is not a part of the core project. Just run "node sample-classes.js" instead of "node app.js" and you should see the output in the console. For more explanation on this results please see //comments in sample.classes.js . 
+
+12. **A simple Mocha + Chai + ChaiHTTP test** - just run "npm test" and you should see the results of the test in the console. 
