@@ -22,6 +22,7 @@
     "bunyan": "^1.8.9",
     "bunyan-format": "^0.2.1",
     "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
     "marko": "^4.1.2",
