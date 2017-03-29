@@ -33,6 +33,9 @@ directory as this file.
 
 #Things I will probably apply/test here:
 ------------
+- callbacks
+- advanced use cases of promises
+- advanced use cases for other features already created?
 - Express.js Router
 - Oauth2-server 
 - Morgan
@@ -47,6 +50,7 @@ directory as this file.
 - Nyc
 - supertest
 - i18n
+- websocket
 
 - nodejs "path"
 - create an object literal with a method and call that method afterwards 
@@ -54,6 +58,7 @@ directory as this file.
 - scopes
 - try every HTTP verb (GET, POST, DELETE,...)
 - try/catch
+- throw/throw new Error
 
 NodeJS stuff: 
 - Javascript Aside: Prototypal Inheritance and Function Constructors
@@ -66,6 +71,8 @@ ES6 stuff:
 
 Stuff from the Eloquent Javascript book
 
+Stuff from the You Don't Know JS books - https://github.com/getify/You-Dont-Know-JS 
+
 #Other things I may apply/test here:
 ------------
 
@@ -75,6 +82,7 @@ https://www.udemy.com/es6-bootcamp-next-generation-javascript/learn/v4/overview
 https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview
 https://www.udemy.com/the-complete-web-developer-course-2/learn/v4/overview
 
+- nodejs event emitter
 - database(s)
 - Sequelize
 - Redis
