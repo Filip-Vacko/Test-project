@@ -33,7 +33,7 @@ directory as this file.
 
 #Things I will probably apply/test here:
 ------------
-- more about node.js/ES6 modules, including edge cases
+- Express.js Router
 - Oauth2-server 
 - Morgan
 - Sinon
@@ -56,10 +56,7 @@ directory as this file.
 - try/catch
 
 NodeJS stuff: 
-- Files and fs
-- Outputting JSON
-- Routing
-- init, nodemon, and package.json pt1+pt2
+- Javascript Aside: Prototypal Inheritance and Function Constructors
 
 ES6 stuff: 
 - (Fat) Arrow Functions and the "this" Keyword
@@ -72,7 +69,7 @@ Stuff from the Eloquent Javascript book
 #Other things I may apply/test here:
 ------------
 
-Advanced stuff from Udemy courses I bought: 
+Advanced stuff from Udemy courses I bought (maybe even do all of the stuff in them?): 
 https://www.udemy.com/understand-nodejs/learn/v4/content
 https://www.udemy.com/es6-bootcamp-next-generation-javascript/learn/v4/overview
 https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview
