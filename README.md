@@ -33,41 +33,10 @@ directory as this file.
 
 #Things I will probably apply/test here:
 ------------
-- callbacks
-- advanced use cases of promises
-- advanced use cases for other features already created?
 - Express.js Router
-- Oauth2-server 
-- Morgan
-- Sinon
-- Verror
-- Debug
-- Gulp
-- Gulp-less
-- Gulp-lifereload
-- Gulp-nodemon
-- Gulp-plumber
-- Nyc
-- supertest
-- i18n
-- websocket
-
 - nodejs "path"
-- create an object literal with a method and call that method afterwards 
-- object prototypes
-- scopes
-- try every HTTP verb (GET, POST, DELETE,...)
 - try/catch
 - throw/throw new Error
-
-NodeJS stuff: 
-- Javascript Aside: Prototypal Inheritance and Function Constructors
-
-ES6 stuff: 
-- (Fat) Arrow Functions and the "this" Keyword
-- Functions and Default Parameters
-- Object Literal Extensions
-- The for-of Loop
 
 Stuff from the Eloquent Javascript book
 
@@ -85,4 +54,4 @@ https://www.udemy.com/the-complete-web-developer-course-2/learn/v4/overview
 - nodejs event emitter
 - database(s)
 - Sequelize
-- Redis
+- Redisgit
